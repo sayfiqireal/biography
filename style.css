@@ -6,22 +6,46 @@
     float: left;
 }
 
+.bg-satu {
+    background: linear-gradient(#A64D79, #6A1E55);
+}
+
 .gambar-profil {
     float: right;
     margin-right: 400px;
-    width: 300px;
+    width: 200px;
     margin-left: 20px;
 }
 
 .sub-desc {
     float: right;
-    height: 300px;
-    width: 200px;
+    height: 100px;
+    width: 300px;
     text-align: right;
+    font-weight: bold;
+    font-size: 30px;
+    color: #faf9f6;
+}
+
+.sub-tittle {
+    font-weight: bold;
+    font-size: 32px;
+    color: #faf9f6;
+    margin-left: 10px;
+}
+
+.bio {
+    font-size: 28px;
+    margin-left: 10px;
+    color: #faf9f6;
 }
 
 .video {
     width: 300px;
+}
+
+.judul {
+    font-size: 25px;
 }
 
 .section {
