@@ -1,13 +1,10 @@
-.kanan {
-    float: right;
-}
-
-.kiri {
-    float: left;
-}
-
 .bg-satu {
     background: linear-gradient(#A64D79, #6A1E55);
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
 }
 
 .gambar-profil {
@@ -19,7 +16,6 @@
 
 .sub-desc {
     float: right;
-    height: 100px;
     width: 300px;
     text-align: right;
     font-weight: bold;
@@ -40,18 +36,67 @@
     color: #faf9f6;
 }
 
-.video {
+.judul {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.box-kiri {
+    margin: 10px;
+    align-items: flex-end;
+    display: flex;
+    align-items: flex-end;
+}
+
+.box-kanan {
+    margin: 10px;
+    align-items: flex-end;
+    display: flex;
+    align-items: flex-end;
+    align-self: flex-end;
+}
+
+.container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.line {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 270px;
     width: 300px;
 }
 
-.judul {
-    font-size: 25px;
+.desc {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 270px;
+    width: 900px;
+    font-size: 24px;
+    margin: 10px;
 }
 
-.section {
-    text-align: center;
+.text {
+    height: 270px;
+    width: 500px;
 }
 
 .clear {
     clear: both;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #faf9f6;
+}
+
+*{
+    margin: 0%;
 }
