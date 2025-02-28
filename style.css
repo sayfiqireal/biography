@@ -1,10 +1,13 @@
-.bg-satu {
-    background: linear-gradient(#A64D79, #6A1E55);
-}
-
+/*navbar*/
 .nav {
     display: flex;
     justify-content: space-between;
+    background-color: #cdf9ff;
+}
+/*title*/
+
+.bg-title{
+    background: radial-gradient(#cdf9ff, 	#c3fbf9);
 }
 
 .gambar-profil {
@@ -20,27 +23,33 @@
     text-align: right;
     font-weight: bold;
     font-size: 30px;
-    color: #faf9f6;
+}
+
+/*bio*/
+
+.bg-bio {
+    
 }
 
 .sub-tittle {
     font-weight: bold;
     font-size: 32px;
-    color: #faf9f6;
     margin-left: 10px;
 }
 
 .bio {
     font-size: 28px;
     margin-left: 10px;
-    color: #faf9f6;
 }
+
+
+/*content*/
 
 .judul {
     font-size: 20px;
     text-align: center;
     margin-bottom: 20px;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 .box-kiri {
@@ -74,13 +83,25 @@
 }
 
 .desc {
-    justify-content: center;
+    display: flex;
     align-items: center;
-    text-align: center;
     height: 270px;
     width: 900px;
     font-size: 24px;
-    margin: 10px;
+    margin: 20px;
+}
+
+.word {
+    text-align: center;
+    display: flex;
+}
+
+/*kontak*/
+
+
+
+.bg-satu {
+    background: linear-gradient(#A64D79, #6A1E55);
 }
 
 .text {
@@ -92,10 +113,10 @@
     clear: both;
 }
 
-.menu a {
+/* .menu a {
     text-decoration: none;
     color: #faf9f6;
-}
+} */
 
 *{
     margin: 0%;
