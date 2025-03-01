@@ -2,6 +2,8 @@ body {
     background-color: #F8F3D9;
     margin-left: 30px;
     margin-right: 30px;
+    margin-bottom: 30px;
+    margin-top: 30px;
 }
 
 /*  */
@@ -10,6 +12,17 @@ body {
 .nav {
     display: flex;
     justify-content: space-between;
+}
+
+.content-list {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 400px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #504B38;
 }
 /*title*/
 
@@ -131,6 +144,10 @@ body {
     text-decoration: none;
     color: #504B38;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+a:hover {
+    background-color: #007BFF
 }
 
 *{
